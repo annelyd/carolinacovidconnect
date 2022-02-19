@@ -96,6 +96,12 @@ a:active {
   align-items: center;
 }
 
+@media screen and (min-width: 540px) {
+  .maingrid {
+    padding-bottom: 3rem;
+  }
+}
+
 @media screen and (min-width: 1080px) {
   .siteheader {
     font-size: 72px;
