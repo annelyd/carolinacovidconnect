@@ -12,9 +12,10 @@
 }
 
 .navitem {
+  color: rgb(133, 133, 133);
   justify-content: center;
-  height: 30px;
   background: #eeeeee;
+  padding: 1rem;
 }
 
 .sitegrid {
