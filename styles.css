@@ -5,12 +5,24 @@
   font-family: 'Inter', sans-serif;
 }
 
+footer {
+  background: #eeeeee;
+  font-size: 18px;
+  text-align: center;
+  padding: 2rem;
+}
+
 form {
   display: flex;
   flex-direction: column;
   padding: 1.75rem;
   background: #eeeeee;
   border-radius: 6px;
+}
+
+input:hover {
+  box-shadow: inset 0px 0px 7px #eeeeee;
+  background: #161925;
 }
 
 h1 {
@@ -26,10 +38,20 @@ label {
 }
 
 select {
+  border-radius: 6px;
   border: 0ch;
   font-size: 16px;
   margin-bottom: 2rem;
   padding: .75rem;
+}
+
+input {
+  color: #eeeeee;
+  font-size: 18px;
+  border: 0ch;
+  border-radius: 6px;
+  background: #161925;
+  padding: 1rem;
 }
 
 iframe {
