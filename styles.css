@@ -94,6 +94,7 @@ a:active {
   grid-column: 2 / span 2;
   grid-row: 2 / span 2;
   align-items: center;
+  text-align: center;
 }
 
 @media screen and (min-width: 540px) {
