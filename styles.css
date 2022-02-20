@@ -153,6 +153,27 @@ a:active {
   text-align: center;
 }
 
+.aboutheader {
+  grid-column: 1 / span 5;
+  grid-row: 1 / span 2;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+}
+
+.belltower {
+  align-items: center;
+  text-align: center;
+  grid-column: 1 / span 5;
+  grid-row: 3 / span 2;
+}
+
+#bigtext {
+  color: #eeeeee;
+  font-size: 64px;
+  font-family: 'Staatliches', cursive;
+}
+
 @media screen and (min-width: 540px) {
   .maingrid {
     padding-bottom: 3rem;
