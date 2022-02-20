@@ -5,6 +5,33 @@
   font-family: 'Inter', sans-serif;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1.75rem;
+  background: #eeeeee;
+  border-radius: 6px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 42px;
+  padding-bottom: 2rem;
+}
+
+label {
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 1rem;
+}
+
+select {
+  border: 0ch;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  padding: .75rem;
+}
+
 iframe {
   height: 125%;
   width: 100%;
